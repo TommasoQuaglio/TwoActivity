@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity2">
 
     <Button
         android:id="@+id/button2"
@@ -14,29 +14,13 @@
         android:layout_alignParentLeft="true"
         android:layout_marginStart="13dp"
         android:layout_marginEnd="13dp"
-        android:layout_marginBottom="200dp"
+        android:layout_marginBottom="380dp"
         android:onClick="onClick"
-        android:text="GO TO THE 2nd ACTIVITY!"
+        android:text="BACK TO THE 1st ACTIVITY!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="386dp"
-        android:layout_height="94dp"
-        android:fontFamily="casual"
-        android:text="WELCOME IN THE 1st ACTIVITY!"
-        android:textAlignment="center"
-        android:textSize="34sp"
-        android:typeface="sans"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.226" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
